@@ -1,7 +1,10 @@
 package com.codekata.trigram;
 
 import java.util.List;
-
+/**
+ * @author java_at_heart
+ *
+ */
 public final class TrigramGenerator {
 
 	public static void main(String[] args) {

@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author java_at_heart
+ *
+ */
 public final class TextFileReader {
 
 	private final String fileName;

@@ -12,6 +12,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author java_at_heart
+ *
+ */
 public final class Trigram extends HashMap<String, List<String>> {
 
 	public final static String SPACE = " ";
@@ -42,6 +46,9 @@ public final class Trigram extends HashMap<String, List<String>> {
 		return mergedKey.split(SPACE);
 	}
 
+	/* (non-Javadoc)
+	 * @see java.util.HashMap#putAll(java.util.Map)
+	 */
 	@Override
 	public void putAll(Map<? extends String, ? extends List<String>> arg0) {
 
