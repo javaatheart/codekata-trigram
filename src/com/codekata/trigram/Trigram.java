@@ -54,11 +54,11 @@ public final class Trigram extends HashMap<String, List<String>> {
 	}
 	@Override
 	public List<String> remove(Object key) {
-		throw new RuntimeException("This is Trigram. Remove is not supported. !!");
+		throw new UnsupportedOperationException("This is Trigram. Remove is not supported. !!");
 	}
 	@Override
 	public List<String> put(String key, List<String> value) {
-		throw new RuntimeException("This is Trigram. Use put(String, String, String) only !!");	
+		throw new UnsupportedOperationException("This is Trigram. Use put(String, String, String) only !!");	
 	}
 	
 	// TODO to be implemented
